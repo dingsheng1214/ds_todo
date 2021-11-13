@@ -1,0 +1,23 @@
+{
+  "name": "ds_todo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "nt": "index.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
